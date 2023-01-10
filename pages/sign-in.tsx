@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import SignInForm from "../components/orgnisms/SignInItem";
 import Image from "next/image";
 
@@ -10,9 +11,9 @@ export default function SignIn() {
           <form action="">
             <div className="container mx-auto">
               <div className="pb-50">
-                <a className="navbar-brand" href="../index.html">
+                <Link className="navbar-brand" href="/">
                   <Image src='/icon/logo.svg' width={60} height={60} alt={'Logo'}/>
-                </a>
+                </Link>
               </div>
               <SignInForm />
             </div>
