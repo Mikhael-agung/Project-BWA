@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 import AOS from 'aos';
-import Navbar from '../components/orgnisms/navbar';
+import Navbar from '../components/orgnisms/Navbar';
 import MainBanner from '../components/orgnisms/MainBanner';
 import TransactionStep from '../components/orgnisms/Transaction';
 import FeaturedGame from '../components/orgnisms/FeatureGames';
@@ -10,18 +10,18 @@ import StoryLine from '../components/orgnisms/PartStory';
 import FooterArea from '../components/orgnisms/Footer';
 
 export default function Home() {
-    useEffect(() => {
-        AOS.init();
-    }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-                <Navbar />
-                <MainBanner />
-                <TransactionStep />
-                <FeaturedGame />                                                                                                                                      
-                <Reached />
-                <StoryLine /> 
-                <FooterArea />                                                          
+      <Navbar />
+      <MainBanner />
+      <TransactionStep />
+      <FeaturedGame />
+      <Reached />
+      <StoryLine />
+      <FooterArea />
     </>
-  )
+  );
 }

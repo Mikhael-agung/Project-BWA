@@ -1,13 +1,13 @@
 import TopUpForm from '../../components/orgnisms/TopUpForm';
 import TopUpItem from '../../components/orgnisms/TopUpItem';
-import Navbar from '../../components/orgnisms/navbar';
+import Navbar from '../../components/orgnisms/Navbar';
 import FooterArea from '../../components/orgnisms/Footer';
 
 /* eslint-disable @next/next/no-img-element */
 export default function Detail() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <section className="detail pt-lg-60 pb-50">
         <div className="container-xxl container-fluid">
           <div className="detail-header pb-50">
@@ -27,7 +27,7 @@ export default function Detail() {
           </div>
         </div>
       </section>
-    <FooterArea />
+      <FooterArea />
     </>
   );
 }
