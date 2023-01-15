@@ -1,4 +1,5 @@
 import React from 'react';
+import Categori from './Categori';
 
 export default function OverviewContent() {
   return (
@@ -9,6 +10,11 @@ export default function OverviewContent() {
           <p className="text-lg fw-medium color-palette-1 mb-14">Top Up Categories</p>
           <div className="main-content">
             <div className="row">
+              <Categori nominal={18000500} icon={'IconDekstop'}>
+                Game
+                <br />
+                Dekstop
+              </Categori>
               <div className="col-lg-4 ps-15 pe-15 pb-lg-0 pb-4">
                 <div className="categories-card">
                   <div className="d-flex align-items-center mb-24">

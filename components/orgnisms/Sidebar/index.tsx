@@ -9,7 +9,7 @@ export default function SidebarItem() {
       <div className="content pt-50 pb-30 ps-30">
         <Profile />
         <div className="menus">
-          <MenuItem title={'Overview'} icon={'IconMenuOverview'} href='/Overview' active/>
+          <MenuItem title={'Overview'} icon={'IconMenuOverview'} href='/member' active/>
           <MenuItem title={'Transaction'} icon={'IconMenuTransaction'} href='/member/transactions'/>
           <MenuItem title={'Messages'} icon={'IconMenuMessages'} href='/messages'/>
           <MenuItem title={'Card'} icon={'IconMenuCard'} href='/card'/>

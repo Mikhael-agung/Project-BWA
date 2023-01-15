@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import SidebarItem from '../../../components/orgnisms/Sidebar';
 
 export default function transaction() {
   return (
     <section className="transactions overflow-auto">
+      <SidebarItem activeMenu='transaction'/>
       <main className="main-wrapper">
         <div className="ps-lg-0">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">My Transactions</h2>
