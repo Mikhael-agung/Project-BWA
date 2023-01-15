@@ -10,12 +10,12 @@ export default function SidebarItem() {
         <Profile />
         <div className="menus">
           <MenuItem title={'Overview'} icon={'IconMenuOverview'} href='/Overview' active/>
-          <MenuItem title={'Transaction'} icon={'IconMenuTransaction'} href='/transaction'/>
+          <MenuItem title={'Transaction'} icon={'IconMenuTransaction'} href='/member/transactions'/>
           <MenuItem title={'Messages'} icon={'IconMenuMessages'} href='/messages'/>
           <MenuItem title={'Card'} icon={'IconMenuCard'} href='/card'/>
           <MenuItem title={'Rewards'} icon={'IconMenuRewards'} href='/rewards'/>
           <MenuItem title={'Settings'} icon={'IconMenuSettings'} href='/settings'/>
-          <MenuItem title={'Log Out'} icon={'IconMenuLog-out'} href='/log-out'/>
+          <MenuItem title={'Log Out'} icon={'IconMenuLog-out'} href='/sign-in'/>
         </div>
         <Footer />
       </div>

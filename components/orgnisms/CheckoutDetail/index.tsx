@@ -32,7 +32,7 @@ export default function CheckoutDetail() {
         <p className="text-lg color-palette-1 mb-20">
           Type <span className="payment-details">Worldwide Transfer</span>
         </p>
-        <p className="text-lg color-palette-1 mb-20">
+        <p className="text-lg color-palette-1 mb-20">np
           Bank Name <span className="payment-details">Mandiri</span>
         </p>
         <p className="text-lg color-palette-1 mb-20">
