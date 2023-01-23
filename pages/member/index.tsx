@@ -8,7 +8,7 @@ import SidebarItem from "../../components/orgnisms/Sidebar";
 export default function member() {
   return (
     <section className="overview overflow-auto">
-    <SidebarItem/>
+    <SidebarItem activeMenu="overview"/>
     <OverviewContent/>
 </section>
   )
