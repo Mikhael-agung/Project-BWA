@@ -1,5 +1,6 @@
+import React from "react"
 
-export default function SignUpSuccsess() {
+export default function SignUpSuccess() {
   return (
     <section className="sign-up-success mx-auto pt-md-179 pb-md-179 pt-150 pb-100">
         <div className="container-fluid">
